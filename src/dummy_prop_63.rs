@@ -1,7 +1,0 @@
-#![allow(dead_code)]
-
-/// Dummy off-chain fixture 63 for indexer snapshots.
-pub const ID: &str = "prop_d63";
-pub const TITLE: &str = "Dummy listing 63";
-pub const PRICE: i128 = 873000;
-pub const CURRENCY: &str = "USD";

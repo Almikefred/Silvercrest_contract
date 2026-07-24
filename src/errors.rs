@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 
-/// Dummy error codes for the property registry.
+/// Sample error codes for the property registry.
 pub const ERR_NOT_FOUND: u32 = 1;
 pub const ERR_UNAUTHORIZED: u32 = 2;
 pub const ERR_INVALID_STATE: u32 = 3;

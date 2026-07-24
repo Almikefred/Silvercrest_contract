@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 
-/// Dummy share lot used by off-chain indexer tests.
+/// Sample share lot used by off-chain indexer tests.
 pub struct ShareLot {
     pub property_id: &'static str,
     pub shares: i128,

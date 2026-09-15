@@ -2,3 +2,5 @@
 Cargo.lock
 *.wasm
 *.rlib
+.DS_Store
+*.swp

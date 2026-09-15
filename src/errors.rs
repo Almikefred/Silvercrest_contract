@@ -1,9 +1,18 @@
-#![allow(dead_code)]
+use soroban_sdk::contracterror;
 
-/// Sample error codes for the property registry.
-pub const ERR_NOT_FOUND: u32 = 1;
-pub const ERR_UNAUTHORIZED: u32 = 2;
-pub const ERR_INVALID_STATE: u32 = 3;
-pub const ERR_ALREADY_EXISTS: u32 = 4;
-pub const ERR_SOLD: u32 = 5;
-pub const ERR_ZERO_PRICE: u32 = 6;
+#[contracterror]
+#[derive(Copy, Clone, Debug, Eq, PartialEq, PartialOrd, Ord)]
+#[repr(u32)]
+pub enum Error {
+    NotFound = 1,
+    Unauthorized = 2,
+    InvalidState = 3,
+    AlreadyExists = 4,
+    Sold = 5,
+    ZeroPrice = 6,
+    Paused = 7,
+    NotAdmin = 8,
+    AlreadyInitialized = 9,
+    ListingNotActive = 10,
+    OfferNotPending = 11,
+}

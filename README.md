@@ -8,4 +8,4 @@ On-chain API: register property, create listing, create/accept offer, finalize s
 cargo build --target wasm32-unknown-unknown --release
 ```
 
-Do not commit deployer secrets. Fixture IDs in `src/sample_prop_*.rs` are off-chain demo data.
+Do not commit deployer secrets. Fixture IDs in `src/sample_prop_*.rs` are off-chain catalog samples for indexer walkthroughs.

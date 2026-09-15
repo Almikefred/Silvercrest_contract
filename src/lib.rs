@@ -48,7 +48,7 @@ impl PropertyRegistry {
     pub fn initialize(env: Env) {
         env.storage().instance().set::<String, u64>(
             &String::from_slice(&env, "version"),
-            &1u64,
+            &2u64,
         );
     }
 
